@@ -1,0 +1,56 @@
+<mvc:View controllerName="com.app.project1.controller.Logout"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" class="bg">
+        <headerContent >
+             <Bar class="bar">
+            <contentLeft>
+                <Image src="../images/kirana.png" class="img"></Image>
+                <Text text="Kirana" class="logo"></Text>
+            </contentLeft>
+
+
+
+            <contentRight>
+                 <Button icon="sap-icon://contacts" text="Contact Us" type="Neutral" press="onContact"></Button>
+                 <Button icon="sap-icon://marketing-campaign" text="Raise a Query" type="Critical" press="onRaiseQuery"></Button>
+
+                 </contentRight>
+    </Bar>
+    </headerContent>
+        <content >
+            <FlexBox justifyContent="Center" alignItems="Center" width="100%" height="90vh" >
+            <VBox class="logf">
+                <Image src="../images/logout.png" class="logimg"></Image>
+                <Text text="Oh no! You Just Got Logged Out..." class="logouttxt"/>
+                <Button text="Go Back to Login Page" icon="sap-icon://undo" press="onGoHomePage" type="Accept" class="logbtn"/>
+            </VBox>
+        </FlexBox>
+        </content>
+
+
+        <footer >
+                <Bar>
+                <contentLeft>
+                 <Text text="All Rights Reserved @2024" class="randomtxt1"></Text>
+
+                 </contentLeft>
+
+
+                <contentMiddle>
+                    <Text text="Download the Kirana App from" class="logo1"></Text>
+                    <Link text="Google Playstore" href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY" />
+                </contentMiddle>
+
+                <contentRight>
+                 <Text text="Created By Tushar" class="randomtxt1"></Text>
+
+                 </contentRight>
+
+
+                </Bar>
+            </footer>
+
+
+    </Page>
+</mvc:View>

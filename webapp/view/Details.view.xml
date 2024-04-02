@@ -1,0 +1,211 @@
+<mvc:View
+  controllerName="com.app.project1.controller.Details"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true"
+  xmlns="sap.m"
+>
+  <SplitApp
+		id="SplitAppDemo"
+		initialDetail="detail"
+		initialMaster="master">
+		<detailPages>
+			<Page
+				id="detail"
+				title="Fruits and Vegetables">
+				<VBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/potato.jpg" class="imgcd"/>
+							<Text text="Potato" class="txtcd"></Text>
+							<Text text="Price: ₹18/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/tomato.jpg" class="imgcd"/>
+							<Text text="Tomato" class="txtcd"></Text>
+							<Text text="Price: ₹30/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/onion.jpg" class="imgcd"/>
+							<Text text="Onion" class="txtcd"></Text>
+							<Text text="Price: ₹25/kg" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/apple.jpg" class="imgcd"/>
+							<Text text="Apple" class="txtcd"></Text>
+							<Text text="Price: ₹100/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/banana.jpg" class="imgcd"/>
+							<Text text="Banana" class="txtcd"></Text>
+							<Text text="Price: ₹50/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/guava.jpg" class="imgcd"/>
+							<Text text="Guava" class="txtcd"></Text>
+							<Text text="Price: ₹80/kg" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+				</VBox>
+			</Page>
+			<Page
+				id="detail1"
+				title="Bakery and Snacks">
+				<VBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/biscuit.jpg" class="imgcd"/>
+							<Text text="Biscuit" class="txtcd"></Text>
+							<Text text="Price: ₹50" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/cake.jpg" class="imgcd"/>
+							<Text text="Cake" class="txtcd"></Text>
+							<Text text="Price: ₹80" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/bread.jpg" class="imgcd"/>
+							<Text text="Bread" class="txtcd"></Text>
+							<Text text="Price: ₹40" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/chips.jpg" class="imgcd"/>
+							<Text text="Chips" class="txtcd"></Text>
+							<Text text="Price: ₹20" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/nugget.jpg" class="imgcd"/>
+							<Text text="Nuggets" class="txtcd"></Text>
+							<Text text="Price: ₹60" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/nut.jpg" class="imgcd"/>
+							<Text text="Nuts" class="txtcd"></Text>
+							<Text text="Price: ₹30" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+				</VBox>
+			</Page>
+			<Page
+				id="detail2"
+				title="Dairy Products">
+				<VBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/milk.jpg" class="imgcd"/>
+							<Text text="Milk" class="txtcd"></Text>
+							<Text text="Price: ₹70/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/butter.jpg" class="imgcd"/>
+							<Text text="Butter" class="txtcd"></Text>
+							<Text text="Price: ₹800/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/curd.jpg" class="imgcd"/>
+							<Text text="Curd" class="txtcd"></Text>
+							<Text text="Price: ₹200/kg" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/ghee.jpg" class="imgcd"/>
+							<Text text="Ghee" class="txtcd"></Text>
+							<Text text="Price: ₹1000/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/paneer.jpg" class="imgcd"/>
+							<Text text="Paneer" class="txtcd"></Text>
+							<Text text="Price: ₹600/kg" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/cheese.jpg" class="imgcd"/>
+							<Text text="Cheese" class="txtcd"></Text>
+							<Text text="Price: ₹500/kg" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+				</VBox>
+			</Page>
+			<Page
+				id="detail3"
+				title="Toiletries">
+				<VBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/soap.jpg" class="imgcd"/>
+							<Text text="Soap" class="txtcd"></Text>
+							<Text text="Price: ₹50" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/deodorant.jpg" class="imgcd"/>
+							<Text text="Deodorant" class="txtcd"></Text>
+							<Text text="Price: ₹80" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/toothpaste.jpg" class="imgcd"/>
+							<Text text="Toothpaste" class="txtcd"></Text>
+							<Text text="Price: ₹40" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+					<HBox>
+						<VBox class="vbox">
+							<Image src="../images/shampoo.jpg" class="imgcd"/>
+							<Text text="Shampoo" class="txtcd"></Text>
+							<Text text="Price: ₹20" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/moisterizer.jpg" class="imgcd"/>
+							<Text text="Moisturizer" class="txtcd"></Text>
+							<Text text="Price: ₹60" class="txtcd1"></Text>
+						</VBox>
+						<VBox class="vbox">
+							<Image src="../images/facewash.jpg" class="imgcd"/>
+							<Text text="Facewash" class="txtcd"></Text>
+							<Text text="Price: ₹30" class="txtcd1"></Text>
+						</VBox>
+					</HBox>
+				</VBox>
+			</Page>
+		</detailPages>
+		<masterPages>
+			<Page
+				id="master"
+				backgroundDesign="List">
+				<headerContent >
+             	<Bar>
+            		<contentLeft>
+                		<Text text="Daily Essentials" class="daily"></Text>
+           		 	</contentLeft>
+    			</Bar>
+    		</headerContent>
+			<content>
+				<List>
+					<items>
+						<StandardListItem title="Fruits and Vegetables" type="Navigation" press="onPressNavToDetail"/>
+						<StandardListItem title="Bakery and Snacks" type="Navigation" press="onPressNavToDetail1"/>
+						<StandardListItem title="Dairy Products" type="Navigation" press="onPressNavToDetail2"/>
+						<StandardListItem title="Toiletries" type="Navigation" press="onPressNavToDetail3"/>
+					</items>
+				</List>
+				</content>
+
+				<footer >
+                <Bar>
+
+				<contentLeft>
+                	<Text text="{userData>/name}" class="user"></Text>
+           		</contentLeft>
+
+                <contentRight>
+                	<Button text="Logout" type="Negative" press="onGoLogoutPage"></Button>
+                 </contentRight>
+
+                </Bar>
+            </footer>
+			</Page>
+		</masterPages>
+	</SplitApp>
+</mvc:View>

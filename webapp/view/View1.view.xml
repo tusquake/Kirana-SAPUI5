@@ -1,0 +1,80 @@
+<mvc:View controllerName="com.app.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" class="bg">
+
+        <headerContent >
+             <Bar class="bar">
+            <contentLeft>
+                <Image src="../images/kirana.png" class="img"></Image>
+                <Text text="Kirana" class="logo"></Text>
+                
+
+            </contentLeft>
+             <contentMiddle>
+
+             
+             <Text text="Sale is Live, Shop Now" class="randomtxt"></Text>    
+             <Text id="liveTimeText" text="{/liveTime}" class="randomtxt" />
+
+
+        </contentMiddle>
+
+        <contentRight>
+                 <Button icon="sap-icon://contacts" text="Contact Us" type="Neutral" press="onContact"></Button>
+                 <Button icon="sap-icon://marketing-campaign" text="Raise a Query" type="Critical" press="onRaiseQuery"></Button>
+
+                 </contentRight>
+    </Bar>
+    </headerContent>
+        <content >
+             <Text text="Poore Bharat ke Bharose ki Dukaan..." class="heading"></Text>
+             <FlexBox justifyContent="Center" alignItems="Center" width="100%" height="70vh" >
+             
+             <HBox>
+            <VBox class="form">
+            <HBox>
+                <Image src="../images/login.png" class="img regi"></Image>
+                <Text text="Register" class="reg"></Text>
+             </HBox>
+                <Label text="UserName:" class="lang"/>
+                <Input id="idinun" value="{userData>/name}" placeholder="Enter Your Name"  width="95%" maxLength="20" type="Text"/>
+
+                <Label text="Password:" class="lang"/>
+                <Input id="idinps" placeholder="Enter Your Password"  width="95%" type="Password" showValueHelp="true" valueHelpRequest="ShowHidePass"/>
+
+                <Button text="Login" icon="sap-icon://visits" press="onLogin" type="Ghost" class="btn"/>
+                <Text text="Sign in will be available Soon!" class="signin"/>
+            </VBox>
+                <Image src="../images/rightsideimg.png" class="rightside"></Image>
+            </HBox>
+        </FlexBox>
+
+        
+
+        
+
+        </content>
+        <footer >
+                <Bar>
+                <contentLeft>
+                 <Text text="All Rights Reserved @2024" class="randomtxt1"></Text>
+
+                 </contentLeft>
+
+
+                <contentMiddle>
+                    <Text text="Download the Kirana App from" class="logo1"></Text>
+                    <Link text="Google Playstore" href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY" />
+                </contentMiddle>
+
+                <contentRight>
+                 <Text text="Created By Tushar" class="randomtxt1"></Text>
+
+                 </contentRight>
+
+
+                </Bar>
+            </footer>
+    </Page>
+</mvc:View>
